@@ -1,0 +1,1 @@
+<a href="controlador/CtrlSalir.php">Salir</a>
