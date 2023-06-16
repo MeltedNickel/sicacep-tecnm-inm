@@ -4,6 +4,8 @@
     <?php require_once("vista/head.php"); ?>
 </head>
 <body>
-    <?php require_once("controlador/CtrlMain.php"); ?>
+    <div class="container-fluid p-0">
+        <?php require_once("controlador/CtrlMain.php"); ?>
+    </div>
 </body>
 </html>
