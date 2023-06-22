@@ -15,7 +15,7 @@
             </li>
   
             <li class="nav-item">
-            <a class="nav-link" href="#">Actualizar Historico/Padron</a>
+            <a class="nav-link" href="#">Actualizar Homologada/Plantilla</a>
             </li>
   
             <li class="nav-item">
@@ -23,11 +23,7 @@
             </li>
   
             <li class="nav-item">
-              <a class="nav-link" href="#">Cursos</a>
-            </li>
-  
-            <li class="nav-item">
-              <a class="nav-link" href="#">***</a>
+              <a class="nav-link" href="#">Convocatoria</a>
             </li>
   
             <li class="nav-item dropdown">

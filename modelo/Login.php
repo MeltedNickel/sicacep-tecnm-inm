@@ -1,7 +1,6 @@
 <?php 
-
     require_once("Conexion.php");
-
+    
     class Login {
 
         public function validarDatos($usu, $pass) {
@@ -21,7 +20,7 @@
                 }
 
                 // Consulta
-                $sql = "SELECT * FROM usuarios WHERE usuario = :USU AND pass = :PASS";
+                $sql = "SELECT * FROM pac01042023 WHERE NUM_EMPLEADO = :USU AND NUM_EMPLEADO = :PASS";
 
                 $resultado = $con->prepare($sql);
                 $resultado->execute(array(":USU"=>$usu, ":PASS"=>$pass));

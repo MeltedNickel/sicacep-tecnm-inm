@@ -8,7 +8,7 @@
             try {
 
                 // Conexión
-                $con = new PDO('mysql:host=localhost; dbname=pdo', 'root', '');
+                $con = new PDO('mysql:host=localhost; dbname=pac', 'root', '');
         
                 // Errores
                 $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
