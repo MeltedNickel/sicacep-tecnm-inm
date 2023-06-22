@@ -21,7 +21,7 @@
                 }
 
                 // Consulta
-                $sql = "SELECT * FROM usuarios WHERE usuario = :USU AND pass = :PASS";
+                $sql = "SELECT * FROM pac01042023 WHERE NUM_EMPLEADO = :USU AND NUM_EMPLEADO = :PASS";
 
                 $resultado = $con->prepare($sql);
                 $resultado->execute(array(":USU"=>$_SESSION["usu"], ":PASS"=>$_SESSION["pass"]));
