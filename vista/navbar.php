@@ -2,7 +2,9 @@
   <div class="text-center">
     <nav class="navbar navbar-expand-xxl navbar-fer bg-fer" aria-label="Seventh navbar example">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">SICACEP</a>
+        <a class="navbar-brand" href="#">
+          <img src="./recursos/img/sicacep-logo.png" alt="Bootstrap" width="112" height="28">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleXxl" aria-controls="navbarsExampleXxl" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
