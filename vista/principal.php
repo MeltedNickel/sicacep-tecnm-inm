@@ -33,6 +33,7 @@
                     <th class="sort asc">Adscripción física</th>
                     <th class="sort asc">Puesto especifico</th>
                     <th class="sort asc">Puesto genérico</th>
+                    <th class="sort asc">Código plaza actual</th>
                     <th class="sort asc">Nivel actual</th>
                     <th class="sort asc">N° empleado</th>
                     <th class="sort asc">Nombre</th>

@@ -3,7 +3,7 @@ require 'config.php';
 
  /* Un arreglo de las columnas a mostrar en la tabla */
 $columns = ['STATUS', 'ADSCRIPCION_FISICA', 'PUESTO_ESPECIFICO', 'PUESTO_GENERICO',
-'NIVEL_ACTUAL', 'NUM_EMPLEADO', 'NOMBRE', 'RFC', 'CURP',
+'CODIGO_PLAZA_ACTUAL','NIVEL_ACTUAL', 'NUM_EMPLEADO', 'NOMBRE', 'RFC', 'CURP',
 'FECHA_DE_INGRESO_INAMI','FECHA_INGRESO_A_LA_PLAZA', 'TIPO_DE_PLAZA'];
 
  /* Nombre de la tabla */
@@ -88,6 +88,7 @@ if ($num_rows > 0) {
         $output['data'] .= '<td>' . $row['ADSCRIPCION_FISICA'] . '</td>';
         $output['data'] .= '<td>' . $row['PUESTO_ESPECIFICO'] . '</td>';
         $output['data'] .= '<td>' . $row['PUESTO_GENERICO'] . '</td>';
+        $output['data'] .= '<td>' . $row['CODIGO_PLAZA_ACTUAL'] . '</td>';
         $output['data'] .= '<td>' . $row['NIVEL_ACTUAL'] . '</td>';
         $output['data'] .= '<td>' . $row['NUM_EMPLEADO'] . '</td>';
         $output['data'] .= '<td>' . $row['NOMBRE'] . '</td>';
@@ -96,7 +97,7 @@ if ($num_rows > 0) {
         $output['data'] .= '<td>' . $row['FECHA_DE_INGRESO_INAMI'] . '</td>';
         $output['data'] .= '<td>' . $row['FECHA_INGRESO_A_LA_PLAZA'] . '</td>';
         $output['data'] .= '<td>' . $row['TIPO_DE_PLAZA'] . '</td>';
-        $output['data'] .= '<td><a class="btn btn-warning btn-sm" href="editar.php?id=' . $row['NUM_EMPLEADO'] . '">Editar</a></td>';
+        $output['data'] .= '<td><a class="btn btn-warning btn-sm" href="vista/editar.php?id=' . $row['NUM_EMPLEADO'] . '">Editar</a></td>';
         $output['data'] .= "<td><a class='btn btn-danger btn-sm' href='elimiar.php?id=" . $row['NUM_EMPLEADO'] . "'>Eliminar</a></td>";
         $output['data'] .= '</tr>';
     }
