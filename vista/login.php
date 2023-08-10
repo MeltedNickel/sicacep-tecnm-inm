@@ -18,7 +18,6 @@
 <div class="text-center">
   <main class="form-signin">
     <form action="controlador/CtrlLogin.php" method="POST">
-      <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
       <h1 class="h3 mb-3 fw-normal">Bienvenido</h1>
       <div class="form-floating">
         <input type="text" class="form-control" name="usu" id="usu" autofocus>
