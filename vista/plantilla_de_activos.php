@@ -197,6 +197,7 @@
     })
 </script>
 
+<script src="./assets/js/all.min.js"></script>
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
 <script src="./assets/js/code.jquery.com_jquery-3.5.1.js"></script>
 <script src="./assets/js/cdn.datatables.net_1.13.4_js_jquery.dataTables.min.js"></script>

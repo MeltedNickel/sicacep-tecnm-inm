@@ -12,7 +12,7 @@
 
         if (isset($_SESSION["error"])) {
         
-            echo "<p>Usuario y/o contraseña incorrecto</p>";
+            echo '<div class="alert alert-danger fixed-top">Usuario y/o contraseña incorrecto</div>';
             unset($_SESSION["error"]);
     
         }

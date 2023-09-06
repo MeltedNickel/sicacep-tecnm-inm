@@ -226,6 +226,7 @@
     <?php include 'importaHologadaModal.php'; ?>
     <?php include 'vaciaHomologadaModal.php'; ?>    
     
+    <script src="./assets/js/all.min.js"></script>
     <script src="./assets/js/code.jquery.com_jquery-3.5.1.js"></script>
     <script src="./assets/js/cdn.jsdelivr.net_npm_popper.js@1.16.1_dist_umd_popper.min.js"></script>
     <script src="./assets/js/stackpath.bootstrapcdn.com_bootstrap_4.5.2_js_bootstrap.min.js"></script>    

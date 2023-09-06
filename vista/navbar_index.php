@@ -1,6 +1,6 @@
 <main>
   <div class="text-center">
-    <nav class="navbar navbar-expand-xxl navbar-fer bg-fer" aria-label="Seventh navbar example">
+    <nav class="navbar navbar-expand-xxl navbar-sicacep bg-sicacep" aria-label="Seventh navbar example">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.php">
           <img src="./recursos/img/sicacep-logo.png" alt="Bootstrap" width="112" height="28">
@@ -20,6 +20,10 @@
 
             <li class="nav-item">
               <a class="nav-link" href="vista/homologada.php">Homologada</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="vista/agendaEventos.php">Agenda de eventos</a>
             </li>
                   
             <li class="nav-item">
