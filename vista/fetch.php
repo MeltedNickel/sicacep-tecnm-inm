@@ -2,7 +2,7 @@
 
 //fetch.php
 
-$conn = new PDO("mysql:host=localhost;dbname=historico", "root", "");
+$conn = new PDO("mysql:host=localhost;dbname=sicacep", "root", "");
 
 $column = array("registro","anio","movimiento","acronimo","procedencia","lugar_nacimiento","tipo_ads","adscripcion","adscripcion_homologada2","nombre","apellido_pat","apellido_mat","nombre_com","genero","rfc","edad","numero_emp","opi","concepto_58","apoyo","consecutivo_plaza","codigo_plaza","nivel","tipo_personal","categoria_nivel","puesto_plaza","puesto","fecha_ingreso","antigüedad","folio_asignatura","consecutivo_inm","clave_programacion","expediente","nombre_evento","nombre_evento2","cat_bloque","bloque","seccion","programa","subprograma","evento_pac","categoria","fecha_inicio","fecha_fin","horas","faltas","pais_sede","estado_sede","sede","salon","accion_capacitacion","evento","tipo_competencias","competencias","modalidad","modalidad2","asignacion_normativa","estatus","evento_migrado","costo_aprox","costo_ajust","calificacion_inicial","calificacion_final","estatus_acreditacion","estatus_acreditacion2","estatus_inscripcion","coordinador","coordinador_numemp","coordinador2","corordinador_numemp2","instructores","procedencias","instructores_externos","procedencias_extenas","mes_reporte","pais_procedencia","tipo_pais","codigos_emp","dsespecifica_descripcion","temas_legalidad_dh","duracion2","fecha_cierre","periodo","historico","motivo");
 

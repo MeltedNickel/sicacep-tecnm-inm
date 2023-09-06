@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-$pdo=new PDO("mysql:host=localhost;dbname=historico", "root", "");
+$pdo=new PDO("mysql:host=localhost;dbname=sicacep", "root", "");
 
 $accion= (isset($_GET['accion']))?$_GET['accion']:'leer';
 switch($accion){
