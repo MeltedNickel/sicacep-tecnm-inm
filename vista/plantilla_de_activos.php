@@ -12,8 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Capacitación, Certificación y Profesionalización</title>
 
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./assets/css/all.min.css" rel="stylesheet">
+    <link href="../recursos/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../recursos/css/all.min.css" rel="stylesheet">
     <link href="../recursos/css/style.css" rel="stylesheet">
    
 </head>
@@ -197,12 +197,12 @@
     })
 </script>
 
-<script src="./assets/js/all.min.js"></script>
-<script src="./assets/js/bootstrap.bundle.min.js"></script>
-<script src="./assets/js/code.jquery.com_jquery-3.5.1.js"></script>
-<script src="./assets/js/cdn.datatables.net_1.13.4_js_jquery.dataTables.min.js"></script>
-<script src="./assets/js/cdn.datatables.net_1.13.4_js_dataTables.bootstrap5.min.js"></script>
-<script src="./assets/js/plantilla_de_activos.js"></script>
+<script src="../recursos/js/all.min.js"></script>
+<script src="../recursos/js/bootstrap.bundle.min.js"></script>
+<script src="../recursos/js/code.jquery.com_jquery-3.5.1.js"></script>
+<script src="../recursos/js/cdn.datatables.net_1.13.4_js_jquery.dataTables.min.js"></script>
+<script src="../recursos/js/cdn.datatables.net_1.13.4_js_dataTables.bootstrap5.min.js"></script>
+<script src="../recursos/js/plantilla_de_activos.js"></script>
 
 <?php include "footer.php";?>
 <?php include "social-networks-icons.php";?>

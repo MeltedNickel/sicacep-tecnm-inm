@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ES">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Capacitación, Certificación y Profesionalización</title>
-    <link rel="stylesheet" href="./assets/fullcalendar/fullcalendar.min.css">
-    <link rel="stylesheet" href="./assets/fullcalendar/bootstrap-clockpicker.css">
+    <link rel="stylesheet" href="../recursos/css/fullcalendar.min.css">
+    <link rel="stylesheet" href="../recursos/css/bootstrap-clockpicker.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="../recursos/css/style.css" rel="stylesheet">
@@ -76,11 +76,11 @@
 </footer>
 <?php include "social-networks-icons.php";?>
 
-<script src="./assets/fullcalendar/jquery.min.js"></script>
-<script src="./assets/fullcalendar/moment.min.js"></script>
-<script src="./assets/fullcalendar/fullcalendar.min.js"></script>
-<script src="./assets/fullcalendar/es.js"></script>
-<script src="./assets/fullcalendar/bootstrap-clockpicker.js"></script>
+<script src="../recursos/js/jquery.min.js"></script>
+<script src="../recursos/js/moment.min.js"></script>
+<script src="../recursos/js/fullcalendar.min.js"></script>
+<script src="../recursos/js/es.js"></script>
+<script src="../recursos/js/bootstrap-clockpicker.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
