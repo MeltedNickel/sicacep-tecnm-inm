@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="../recursos/css/fullcalendar.min.css">
     <link rel="stylesheet" href="../recursos/css/bootstrap-clockpicker.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../recursos/css/cdn.jsdelivr.net_npm_bootstrap@4.0.0_dist_css_bootstrap.min.css">
     <link href="../recursos/css/style.css" rel="stylesheet">
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+    </style>
   </head>
 <body>
 <div class="text-center">
@@ -51,7 +56,7 @@
                     <p>SICACEP &COPY; 2023</p>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-xl">
                 <div class="text-center">
                     <p>Redes Sociales</p>
                     <a class="p-4" href="https://es-la.facebook.com/InamiMX"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a>
@@ -60,13 +65,13 @@
                 </div>
             </div>
 
-            <div class="col d-none d-block">
+            <div class="col-xl d-none d-xl-block">
                 <div class="text-center">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.421675248651!2d-99.20961332397208!3d19.437378190526612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2021b1a043e67%3A0xe3e44484874694f7!2sInstituto%20Nacional%20de%20Migraci%C3%B3n%20-%20INM%20-%20Oficina%20de%20Representaci%C3%B3n!5e0!3m2!1ses-419!2smx!4v1685413387853!5m2!1ses-419!2smx" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 
-            <div class="col-12">
+            <div class="col-xl-12">
                 <div class="text-center">
                     <p><a href="https://goo.gl/maps/BJb2LxfhNqSKUekV9">Dirección: Av. Ejército Nacional No. 862, Col. Polanco, Alcaldía Miguel Hidalgo,  C. P. 11540, Ciudad de México, Tel. (55) 5387-2400</a></p>
                 </div>
@@ -82,8 +87,8 @@
 <script src="../recursos/js/es.js"></script>
 <script src="../recursos/js/bootstrap-clockpicker.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="../recursos/js/cdn.jsdelivr.net_npm_popper.js@1.12.9_dist_umd_popper.min.js"></script>
+<script src="../recursos/js/cdn.jsdelivr.net_npm_bootstrap@4.0.0_dist_js_bootstrap.min.js"></script>
 <script>
     $(document).ready(function(){
         $('#CalendarioWeb').fullCalendar({
