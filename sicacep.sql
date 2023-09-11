@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 06-09-2023 a las 17:43:35
+-- Tiempo de generación: 11-09-2023 a las 04:37:16
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.1.17
 
@@ -79,7 +79,8 @@ INSERT INTO `eventos` (`id`, `title`, `descripcion`, `color`, `textColor`, `star
 (28, 'Capacitacion', '', '#000000', '#FFFFFF', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (29, 'Capacitacion', '', '#000000', '#FFFFFF', '2023-09-13 15:20:00', '2023-09-13 15:20:00'),
 (30, 'Capacitacion', '', '#000000', '#FFFFFF', '2023-09-14 15:20:00', '2023-09-14 15:20:00'),
-(31, 'Conferencia General ', '', '#00aaff', '#FFFFFF', '2023-09-01 11:45:00', '2023-09-01 11:45:00');
+(31, 'Conferencia General ', '', '#00aaff', '#FFFFFF', '2023-09-01 11:45:00', '2023-09-01 11:45:00'),
+(33, 'fgfd', 'uguf', '#d02525', '#FFFFFF', '2023-09-30 12:21:00', '2023-09-30 12:21:00');
 
 -- --------------------------------------------------------
 
@@ -324,7 +325,7 @@ ALTER TABLE `estatus`
 -- AUTO_INCREMENT de la tabla `eventos`
 --
 ALTER TABLE `eventos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- AUTO_INCREMENT de la tabla `tabla`
